@@ -33,6 +33,9 @@
   margin: 0 auto;
   margin-bottom: 10px;
 }
+#container ol {
+  list-style: none;
+}
 .center-align {
   text-align: center;
   /* list-style: none; */
