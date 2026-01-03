@@ -4,24 +4,27 @@
 }
 
 #main_heading {
-  width: 90%;
+  width: 95%;
+  margin: 10px auto;
 
   color: blueviolet;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   text-align: center;
-  margin: 10px auto;
-
+  font-size: 50px;
   padding: 5px 0;
-  box-shadow: 6px 0px 10px 5px rgba(5, 110, 110, 0.322);
+  box-shadow: 6px 4px 7px rgba(0, 0, 0, 0.514);
+  /* box-shadow: 6px 0px 10px 5px rgba(5, 110, 110, 0.322); */
   /* border-bottom: 2px dotted red; */
 }
 #container {
-  background-color: #ffffff;
+  background-color: white;
   padding: 25px;
-  width: 85%;
+  width: 90.5%;
   margin: 0 auto;
-  box-shadow: 6px 0px 10px 5px rgba(5, 110, 110, 0.322);
+  margin-bottom: 20px;
+  box-shadow: 6px 4px 7px rgba(0, 0, 0, 0.514);
 }
+
 #container h3 {
   color: blueviolet;
   font-family: sans-serif;
@@ -30,53 +33,26 @@
 
   width: 45%;
   margin: 0 auto;
-  margin-bottom: 10px;
 }
 #container ol {
-  display: block;
-  box-shadow: 6px 0px 10px 5px rgb(202, 247, 247);
-  padding: 25px;
+  /* display: block;
+  box-shadow: 6px 0px 10px 5px rgb(202, 247, 247); */
+  padding: 10px;
 }
 
-/* .center-align {
-  text-align: center;
-  list-style: none;
-}
-#first_list span {
-  background-color: rgb(52, 247, 3);
-  color: blueviolet;
-  display: block;
-  padding: 5px;
-  width: 8%;
-  margin: 0 auto;
-}
-#second_list span {
-  background-color: rgb(52, 247, 3);
-  color: blueviolet;
-  display: block;
-  padding: 5px;
-   width: 6%; 
-  margin: 0 auto;
-}
+#first_list span,
+#second_list span,
 #third_list span {
-  background-color: rgb(52, 247, 3);
-  color: blueviolet;
-  display: block;
-  padding: 5px;
-  width: 15%;
-  margin: 0 auto;
+  background-color: blueviolet;
 }
-*/
 #nested1 li,
 #nested2 li,
 #nested3 li {
   list-style: square;
-  margin-left: 20px;
+  margin-left: 30px;
 }
-/* #container ol {
-  list-style-position: outside;
-} */
 
-/* #container ul {
-  list-style-position: inside;
-} */
+footer {
+  /* box-shadow: 6px 0px 10px 5px rgba(5, 110, 110, 0.322); */
+  text-align: center;
+}

@@ -71,10 +71,8 @@
   list-style: none;
   margin-left: 20px;
 }
-/* #container ol {
-  list-style-position: outside;
-} */
 
-/* #container ul {
-  list-style-position: inside;
-} */
+footer {
+  box-shadow: 6px 0px 10px 5px rgba(5, 110, 110, 0.322);
+  text-align: center;
+}
